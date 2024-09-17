@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pokémon Search</h1>
+
+    <!-- Input field for search -->
+    <input type="text" id="search-input" placeholder="Enter Pokémon name or ID" required>
+
+    <!-- Search button -->
+    <button id="search-button">Search</button>
+
+    <!-- Pokémon information display -->
+    <div id="pokemon-info">
+        <h2 id="pokemon-name"></h2>
+        <p>ID: <span id="pokemon-id"></span></p>
+        <p>Weight: <span id="weight"></span></p>
+        <p>Height: <span id="height"></span></p>
+
+        <!-- Types will go here -->
+        <div id="types"></div>
+
+        <!-- Stats -->
+        <p>HP: <span id="hp"></span></p>
+        <p>Attack: <span id="attack"></span></p>
+        <p>Defense: <span id="defense"></span></p>
+        <p>Special Attack: <span id="special-attack"></span></p>
+        <p>Special Defense: <span id="special-defense"></span></p>
+        <p>Speed: <span id="speed"></span></p>
+
+        <!-- Pokémon sprite will be dynamically added here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
